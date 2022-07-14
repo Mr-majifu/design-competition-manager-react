@@ -1,0 +1,79 @@
+
+
+tr { 
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid rgba(177, 177, 177, 0.774); 
+}
+
+table tr:last-child {
+  border-bottom: 1px solid rgba(177, 177, 177, 0.774);
+}
+
+th {
+  text-align: center;
+  height: 50px;
+  background-color: #f2f3f4;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+td {
+  text-align: center;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+tr:not(:first-child):hover {
+  border-bottom: 1px rgb(0, 141, 228) solid;
+  border-top: 1px rgb(0, 141, 228) solid;
+  background-color: rgba(234, 234, 234, 0.666);
+}
+
+table tr:last-child:hover {
+  border-bottom: 1px rgb(0, 141, 228) solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-bottom: 30px;
+}
+
+.editBtn {
+  width: 60px;
+  margin-left: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: rgb(58, 142, 230);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.editBtn:hover {
+  background-color: rgb(115, 167, 223);
+}
+
+.delete {
+  margin-top: 5px;
+}
+
+.deleteBtn {
+  width:60px;
+  margin-left: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: rgb(221, 97, 97);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.deleteBtn:hover {
+  background-color: rgb(241, 138, 138);
+}

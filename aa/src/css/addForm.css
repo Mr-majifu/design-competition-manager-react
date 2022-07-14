@@ -1,0 +1,130 @@
+.addEntryShade {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addEntryBox {
+  width: 520px;
+  height: 600px;
+  background-color: #ffffff;
+  /* border: 2px rgb(117, 177, 255) solid; */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.addEntryBox-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addEntryBox-title {
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 19px 0px 13px 30px;
+}
+
+.addEntryBox-close {
+  color: rgb(106 106 106 / 85%);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 19px 21px 13px 0px;
+}
+
+.addEntryBox-close span:hover {
+  color: rgba(47, 47, 47, 0.85);
+  cursor: pointer;
+}
+
+.addEntryBox hr {
+  height: .5px;
+  background-color: rgba(206, 206, 206, 0.426);
+}
+
+.addEntryBox-inputList {
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 30px;
+}
+
+.addEntryBox-inputList div {
+  margin: 10px 0;
+}
+
+.addEntryBox-inputList span {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.addEntryBox-applicant input,  .addEntryBox-score input, .addEntryBox-submissionDate input, .addEntryBox-submissionTime input{
+  width: 450px;
+  height: 28px;
+  border: .5px rgb(195, 195, 195) solid;
+  border-radius: 4px;
+}
+
+.addEntryBox-applicant input:hover {
+  border: .5px rgb(10, 153, 255) solid;
+}
+
+.addEntryBox-description textarea {
+  width: 450px;
+  height: 90px;
+  resize: none;
+  border: .5px rgb(195, 195, 195) solid;
+}
+
+.addEntryBox-description textarea:hover {
+  border: .5px rgb(10, 153, 255) solid;
+}
+
+.addEntryBox-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.addEntryBox-bottom-cancelBtn {
+  margin-left: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 14px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.addEntryBox-bottom-cancelBtn:hover {
+  background-color: rgb(230, 240, 252);
+  color: rgb(68, 155, 255);
+  border: 1px solid rgb(182, 217, 255);
+}
+
+.addEntryBox-bottom-createBtn {
+  margin-left: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 14px;
+  background-color: rgb(58, 142, 230);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.addEntryBox-bottom-createBtn:hover {
+  background-color: rgb(115, 167, 223);
+}
